@@ -5,18 +5,20 @@ h1{
   text-align: center;
 }
 div{
+
+
   border:1px solid black;
   background-color: lightgrey;
   float:left;
-  margin-left:10px;
+  margin-left:20px;
   margin-top: 10px;
 }
  h4{
 
-  border: 1px solid black;
+  border: 1px solid black ;
   padding:5px;
   float:right;
-  margin-left: 700px;
+  position: relative;
   margin-top: 0px;
   text-align: center;
 
@@ -25,11 +27,14 @@ div.chicken h4{
   background-color: tomato;
 }
 div.Beef h4{
-  background-color:#A52A2A;
+  background-color:#5F9EA0;
 
 }
 div.Sushi h4{
   background-color:#DEB887;
+}
+p{
+  padding:15px;
 }
 
 @media (min-width:992px){
@@ -46,17 +51,23 @@ div.Sushi h4{
 @media(min-width:768px)and (max-width:991px){
   div.chicken{
     width:45%;
+    height:35%;
+
   }
   div.Beef{
     width:45%;
+    height:35%;
   }
   div.Sushi{
-    width:91%;
+    width:92%;
+    margin-top: 20px;
   }
 }
 
   @media(max-width:767px){
     div.chicken,div.Beef,div.Sushi{
-      width:90%;
+      width:80%;
+      margin-left: 60px;
     }
   }
+
